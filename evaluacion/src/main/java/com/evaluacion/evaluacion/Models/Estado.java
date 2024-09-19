@@ -1,6 +1,6 @@
 package com.evaluacion.evaluacion.Models;
 
-public enum Status {
+public enum Estado {
 
     Finalizada,
     Pendiente,

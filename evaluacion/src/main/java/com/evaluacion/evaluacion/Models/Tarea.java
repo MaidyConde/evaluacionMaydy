@@ -40,6 +40,6 @@ public class Tarea {
     private String status;
 
     @Enumerated(EnumType.STRING)
-    private Status Status;
+    private Estado Estado;
 
 }
