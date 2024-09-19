@@ -29,10 +29,6 @@ public class tareaController {
             return new ResponseEntity<>("Campo title es obligatorio", HttpStatus.BAD_REQUEST);
         }
 
-        if (Tarea.getDueDate().equals("")) {
-            return new ResponseEntity<>("Campo dueDate es obligatorio", HttpStatus.BAD_REQUEST);
-        }
-
         if (Tarea.getAssignedTo().equals("")) {
             return new ResponseEntity<>("Campo assignedTo es obligatorio", HttpStatus.BAD_REQUEST);
         }

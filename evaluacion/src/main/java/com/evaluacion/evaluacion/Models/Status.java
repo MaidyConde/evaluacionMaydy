@@ -1,6 +1,5 @@
 package com.evaluacion.evaluacion.Models;
 
-
 public enum Status {
 
     Finalizada,
