@@ -13,6 +13,6 @@ public interface ItareaService {
 
     public Optional<Tarea> findOne(String id);
 
-    public int deleteForever(String id);
+    public int delete(String id);
 
 }

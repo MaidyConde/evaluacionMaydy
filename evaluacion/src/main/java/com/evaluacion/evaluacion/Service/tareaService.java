@@ -36,7 +36,7 @@ public class tareaService implements ItareaService {
     }
 
     @Override
-    public int deleteForever(String id) {
+    public int delete(String id) {
         data.deleteById(id);
         return 1;
     }
